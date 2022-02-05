@@ -1,0 +1,7 @@
+#main {
+	display: flex;
+}
+
+#main #canvas-editor {
+	width: 100%;
+}
