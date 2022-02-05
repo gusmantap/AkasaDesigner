@@ -6,7 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "fabric": "^4.6.0",
+    "fabric-pure-browser": "^5.0.0",
     "firebase": "^9.6.6",
     "next": "latest",
     "react": "17.0.2",
