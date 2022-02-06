@@ -1,7 +1,6 @@
 const config = {
 	webpack(config) {
-		config.resolve.alias['fabric'] = 'fabric-pure-browser'
-		return config;
+	return config;
 	}
 }
 
