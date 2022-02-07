@@ -1,7 +1,59 @@
-#main {
+.container {
 	display: flex;
 }
 
 #main #canvas-editor {
 	width: 100%;
+}
+#main {
+	margin:0;
+}
+
+body {
+	margin: 0;
+	background: rgb(243 244 246);
+}
+
+.w960
+{
+	margin:0 auto;
+	width:960px;
+}
+
+header {
+	background:white;
+	border-bottom: solid 1px #eee;
+	height: 70px;
+	margin-bottom: 10px;
+	width: 100%;
+	color:#696969;
+	font-size: 1rem;
+	font-family: 'Segoe UI';
+}
+
+header img {
+	width: 50px;
+	height: 50px;
+}
+header h1 {
+	margin:0;
+	margin-top: 10px;
+}
+
+.d-flex
+{
+	display: flex;
+}
+
+.menu {
+	display:flex;
+	list-style: none;
+}
+.menu li {
+	padding: 10px;
+}
+.menu li a {
+	text-decoration: none;
+	color:#696969;
+	font-weight: 400;
 }
